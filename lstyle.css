@@ -1,0 +1,172 @@
+*{
+    margin: o;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background: url(webbackground.jpg)no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.wrapper{
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    background: #f1a2a2;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+
+
+}
+.header{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 30px;
+    left: 140px;
+    color: #5d9dae;
+
+
+
+}
+.facebook{
+    position: relative;
+    top: 50px;
+    left:40px;
+    height: 50px;
+    width: 200px;
+    background: #e6e7ea;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0 0 14px 2px rgb(255, 226, 226);
+
+    
+}
+.facebook i{
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 30px;
+    color: white;
+
+}
+.facebook p{
+    font-size: 33px;
+    margin-top: 0px;
+    font-weight: 600;
+    line-height: 50px;
+    color:rgb(17, 0, 250);
+    
+
+
+}
+.facebook:hover{
+    background: rgb(17, 0, 250);
+    box-shadow: 0px 0px 10px --2px rgba(122,122,122,1);
+}
+.facebook:hover p{
+    color:white;
+}
+.google{
+    position: relative;
+    top: 50px;
+    left:260px;
+    height: 50px;
+    width: 200px;
+    background: #ffffff;
+    border-radius: 5px;
+    
+    
+    cursor: pointer;
+    transition: .5s;
+    margin-top: -50px;
+    box-shadow: 0 0 14px 2px rgb(255, 226, 226);
+
+    
+    
+}
+.google i{
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 30px;
+    color: white;
+
+}
+.google p{
+    font-size: 33px;
+    margin-top: 0px;
+    font-weight: 600;
+    line-height: 50px;
+    color:rgb(255, 0, 0);
+    
+
+
+}
+.google:hover{
+    background: #fe0000;
+    box-shadow: 0px 0px 10px --2px rgba(122,122,122,1);
+}
+.login-form{
+    
+    padding:20px 40px;
+    margin-top: 50px;
+}
+.login-form .label{
+    font-size: 18px;
+    margin: 10px 0;
+    color:#2d3436 ;
+
+
+}
+.login-form input{
+    height: 40px;
+    width: 400px;
+    border-radius: 3px;
+    outline:none;
+    padding:0 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+.login-form input:focus{
+    transition: .3s;
+    border: 1px solid #999999;
+}
+.login-form button{
+    margin-top: 45px;
+    height: 50px;
+    width: 420px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: 1px solid #0f0f0f;
+    border-radius: 3px;
+    background: #756df0;
+    transition: .5s;
+    border-radius: 20px;
+}
+.login-form button:hover{
+    background: #ef6c6c;
+    border-radius: 0%;
+    color:black;
+}
+.footer{
+
+    position: relative;
+    top: 20px;
+    left: 110px;
+    color: #2d3436;
+    cursor: pointer;
+}
+.forget{
+
+    font-size: 15px;
+    cursor: pointer;
+}
